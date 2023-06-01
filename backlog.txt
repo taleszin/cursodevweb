@@ -1,0 +1,3 @@
+Sistema do aplis atualizado *
+Estudar PHP udemy *
+Ver como é a internacionalização
