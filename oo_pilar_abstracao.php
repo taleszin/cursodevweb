@@ -1,11 +1,24 @@
 <?php 
     //modelo
-    // a partir do modelo podemos instanciar um objeto
+    // a partir do modelo podemos instanciar um objeto (por exemplo, podemos ter uma classe carro, e a partir dela instanciar o objeto "Corolla" )
 class Funcionario{ // sempre primeira letra em maiusculo
     //atributos
-    public $nome = "jose";
-    public $telefone = "2135613621";
-    public $numFilhos = 2;
+    public $nome = null;
+    public $telefone = null;
+    public $numFilhos = null;
+    //getters e setters
+    function setNome($nome){ //variavel diferente, apesar  do mesmo nome la de cima
+        $this->nome = $nome;
+    }
+    function setNumFilhos($numFilhos){ //modifica    //variavel diferente, apesar  do mesmo nome la de cima
+        $this->nome = $nome;
+    }
+    function getNome(){
+        return $this->nome;
+    }
+    function getNumFilhos(){ //acessa
+        return $this-> numFilhos;
+    }
 
     //métodos
     function resumirCadFunc(){
